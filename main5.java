@@ -1,11 +1,19 @@
 class HelloWorldApp {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-<<<<<<< HEAD
 	    System.out.println("Bye world");
 	    System.out.println("Bye world");
-=======
-	System.out.println("Bye World..");
->>>>>>> 4c7f074 (changing main5 class)
+	    reNr(228);
+	    printSMH("cikkk");
+
+    }
+
+    public static void printSMH(String a){
+        System.out.println(a);
+    }
+
+    public static int reNr(int x){
+        x = x+12;
+        return x;
     }
 }
