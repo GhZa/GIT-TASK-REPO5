@@ -17,4 +17,10 @@ class HelloWorldApp {
         return x;
 
     }
+
+    public static void gGg(int y){
+        for(int i ==0; i<10; i++){
+            System.out.println(y+i);
+     }
+    }
 }
